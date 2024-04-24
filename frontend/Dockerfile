@@ -1,6 +1,6 @@
 FROM node:16 as build-stage
 WORKDIR /frontend
-COPY package*.json ./
+COPY package.json package-lock
 RUN npm install
 COPY ./ .
 

@@ -25,7 +25,7 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     volumes:
-      - frontend-volume:/backend
+      - backend-volume:/backend
 volumes:
   frontend-volume:
   backend-volume:
