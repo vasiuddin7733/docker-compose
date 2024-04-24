@@ -1,0 +1,8 @@
+{
+  "name": "compose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vasiuddin7733/docker-compose.git",
+  "author": "vasiuddin7733 <vasiuddin7733>",
+  "license": "MIT"
+}
